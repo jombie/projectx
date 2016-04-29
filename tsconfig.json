@@ -1,0 +1,26 @@
+{
+  "compileOnSave": false,
+  "buildOnSave": false,
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    "moduleResolution": "node",
+    "preserveConstEnums": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "noImplicitAny": false,
+    "noEmitOnError": false,
+    "forceConsistentCasingInFileNames": true,
+    "removeComments": false,
+    "sourceMap": true,
+    "jsx": "react",
+    "outDir": "./lib",
+    "declaration": true
+  },
+  "exclude": [
+    "node_modules",
+    "dist",
+    "typings/browser",
+    "typings/browser.d.ts"
+  ]
+}
