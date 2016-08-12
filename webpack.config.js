@@ -1,5 +1,5 @@
 module.exports = {
-  entry: './src/index.ts',
+  entry: './src/index.tsx',
   output: {
     path: __dirname,
     filename: 'bundle.js'
@@ -18,6 +18,9 @@ module.exports = {
         query: { presets: [ 'es2015', 'react' ] }
       }
     ]
+  },
+  resolve: {
+    root: ['./src'],
+    extensions: ['', '.jsx', '.js', '.tsx', '.ts']
   }
 };
-

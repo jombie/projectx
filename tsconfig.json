@@ -1,24 +1,21 @@
 {
-  "compileOnSave": false,
+	"compileOnSave": false,
   "buildOnSave": false,
-  "compilerOptions": {
+	"compilerOptions": {
+		"module": "es6",
+		"jsx": "react",
     "target": "es6",
     "moduleResolution": "node",
     "preserveConstEnums": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "noImplicitAny": false,
-    "noEmitOnError": false,
-    "forceConsistentCasingInFileNames": true,
-    "removeComments": false,
-    "sourceMap": true,
-    "jsx": "react",
-    "declaration": false
-  },
-  "exclude": [
-    "node_modules",
-    "dist",
-    "typings/browser",
-    "typings/browser.d.ts"
-  ]
+    "noEmitOnError": false
+	},
+	"exclude": [
+		"node_modules",
+		"dev_server.js",
+		"typings/browser.d.ts",
+    "typings/browser"
+	]
 }
