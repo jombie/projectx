@@ -1,7 +1,7 @@
 {
-  "name": "projectx",
-  "main": "dist/lib/index.d.ts",
-  "ambientDependencies": {
-    "react": "registry:dt/react#0.14.0+20160423065914"
+  "globalDependencies": {
+    "react": "registry:dt/react#0.14.0+20160720060442",
+    "react-redux": "registry:dt/react-redux#4.4.0+20160724070751",
+    "redux": "registry:dt/redux#3.5.2+20160703092728"
   }
 }

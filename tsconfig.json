@@ -2,7 +2,6 @@
   "compileOnSave": false,
   "buildOnSave": false,
   "compilerOptions": {
-    "module": "commonjs",
     "target": "es6",
     "moduleResolution": "node",
     "preserveConstEnums": true,
@@ -14,8 +13,7 @@
     "removeComments": false,
     "sourceMap": true,
     "jsx": "react",
-    "outDir": "./lib",
-    "declaration": true
+    "declaration": false
   },
   "exclude": [
     "node_modules",
